@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito:wght@200;400;500;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    transition: .2s linear;
+    text-decoration: none;
+}
+
+:root {
+    --text-color: #848cc1;
+    --bg: #ffffff;
+    --border: .1rem solid rgba(255, 255, 255, .3);
+}
+
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 5rem;
+}
+
+body {
+    background: var(--bg);
+}
+
+section {
+    padding: 6rem 7%;
+    position: relative;
+}
+
+.btn {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    display: inline-block;
+    padding: 0rem 7%;
+    font-size: 3rem;
+    color: var(--text-color);
+    background: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 25%;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.btn span {
+    font-size: 6rem;
+}
+
+.header {
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header .logo img {
+    height: 6rem;
+}
+
+.header .navbar a {
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: #a9a9a9;
+}
+
+.header .navbar a:hover {
+    color: var(--text-color);
+    border-bottom: .1rem solid black;
+    padding-bottom: .5rem;
+}
+
+.home {
+    min-height: 90vh;
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./../images/hero3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.home .content {
+    max-width: 90%;
+}
+
+.home .content h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.about {
+    min-height: 88vh;
+    max-width: 90%;
+    margin: auto;
+    background: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about .content {
+    max-width: 90%; 
+}
+
+.about .content h1 {
+    font-size: 10rem;
+    margin-bottom: 70px; 
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.about .content p {
+    width: 700px;
+    font-size: 1.8rem;
+    line-height: 2.5rem; 
+    color: var(--text-color); 
+    margin-bottom: 20px; 
+}
