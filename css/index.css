@@ -180,7 +180,7 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     margin: auto;
     margin-top: 50px;
-    margin-left: 9rem;
+    margin-left: 8rem;
 }
 
 .menu .box-container .box {
