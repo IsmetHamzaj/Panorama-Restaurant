@@ -336,6 +336,8 @@ section {
         background-position: left;
         justify-content: center;
         text-align: center;
+        background-size: contain;
+        background-attachment: scroll;
     }
 
     .home.content h1 {
