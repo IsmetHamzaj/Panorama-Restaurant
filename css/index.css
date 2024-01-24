@@ -46,6 +46,11 @@ section {
     position: relative;
 }
 
+a {
+    text-decoration: none;
+    color: #a9a9a9;
+}
+
 .btn {
     position: relative;
     left: 50%;
@@ -298,6 +303,82 @@ section {
 }
 
 
+.getintouch {
+    min-height: fit-content;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.getintouch h1 {
+    font-size: 10rem;
+    margin-bottom: 70px;
+    font-weight: lighter;
+    margin-top: 70px;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.getintouch .box-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+
+.getintouch .box-container .box span {
+    font-size: 5rem;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+}
+
+.getintouch .box-container .box p {
+    font-size: 2rem;
+    color: #a9a9a9;
+    width: 310px;
+}
+
+.getintouch .map {
+    width: 100%;
+}
+
+.getintouch .map .hart {
+    width: 100%;
+    height: 500px;
+}
+
+
+.footer {
+    width: 100%;
+    background: #6f3c3c;
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.footer .name {
+    margin-left: 3rem;
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+
+.footer .company {
+    margin-right: 3rem;
+    color: #ffffff;
+    font-size: 1.3rem;
+}
 
 #menu-btn {
     display: none;
@@ -308,7 +389,6 @@ section {
     background: transparent;
     right: 0;
 }
-
 
 
 
@@ -430,6 +510,8 @@ section {
     }
 
     .atmosphere {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         text-align: center;
     }
@@ -437,4 +519,21 @@ section {
     .atmosphere h1 {
         font-size: 5rem;
     }
+
+    .getintouch .box-container .box {
+        margin-bottom: 50px;
+    }
+
+    .getintouch h1 {
+        font-size: 5rem;
+    }
+
+    .getintouch .box-container .box span {
+        font-size: 3rem;
+    }
+
+    .getintouch .box-container .box p {
+        font-size: 2rem;
+    }
+
 }
