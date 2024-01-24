@@ -373,6 +373,7 @@ a {
 
 .footer .name {
     margin-left: 3rem;
+    text-transform: uppercase;
     color: #ffffff;
     font-size: 1.3rem;
 }
@@ -380,7 +381,7 @@ a {
 .footer .company {
     margin-right: 3rem;
     color: #ffffff;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 #menu-btn {
