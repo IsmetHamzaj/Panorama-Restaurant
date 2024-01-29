@@ -110,7 +110,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url(./../images/hero5.jpg) no-repeat;
+    background: url(./../images/panorama1/3.JPG) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -256,9 +256,17 @@ a {
 }
 
 .wines .box-container .box .img-box img {
-    width: 202px;
-    height: 400px;
-    object-fit: contain;
+    width: 150px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.wines .box-container .box .text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 .wines .box-container .box .text-box h3 {
