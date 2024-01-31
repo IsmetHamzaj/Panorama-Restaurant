@@ -418,6 +418,9 @@ a {
         font-size: 55%;
     }
 
+    body {
+        overflow-x: hidden;
+    }
     .header {
         padding: 1.5rem 2rem;
     }
@@ -431,6 +434,10 @@ a {
 @media(max-width:768px) {
     html {
         margin: auto;
+    }
+
+    body{
+        overflow-x: hidden;
     }
 
     .home {
@@ -477,6 +484,14 @@ a {
 
     .about h1 {
         font-size: 8rem;
+    }
+
+    .about .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
     }
 
     .about .content p {
