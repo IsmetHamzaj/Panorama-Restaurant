@@ -12,7 +12,7 @@
 
 :root {
     --text-color: #848cc1;
-    --bg: #ffffff;
+    --bg: #edede9;
     --border: .1rem solid rgba(255, 255, 255, .3);
 }
 
@@ -60,7 +60,7 @@ a {
     padding: 0rem 7%;
     font-size: 3rem;
     color: var(--text-color);
-    background: #ffffff;
+    background: #edede9;
     outline: none;
     border: none;
     border-radius: 25%;
@@ -130,7 +130,7 @@ a {
     min-height: 88vh;
     max-width: 95%;
     margin: auto;
-    background: #f6f6f6;
+    background: #edede9;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -265,7 +265,7 @@ a {
 
 .wines .box-container .box .img-box img {
     width: 150px;
-    height: 600px;
+    height: 700px;
     object-fit: cover;
 }
 
