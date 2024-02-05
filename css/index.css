@@ -94,7 +94,7 @@ a {
     margin: 0 1rem;
     font-size: 1.8rem;
     text-transform: uppercase;
-    color: #a9a9a9;
+    color: var(--text-color);
 }
 
 .header .navbar a:hover {
@@ -210,7 +210,7 @@ a {
 
 .menu .box-container .box h4 {
     font-size: 1.9rem;
-    color: var(--text-color);
+    color: #e8c39e;
     text-decoration: underline;
     text-transform: uppercase;
     padding-bottom: 30px;
@@ -219,7 +219,7 @@ a {
 
 .menu .box-container .box h3 {
     font-size: 2.2rem;
-    color: #ffffff;
+    color: var(--text-color);
     text-transform: uppercase;
     padding-bottom: 5px;
     font-family: 'Poppins', sans-serif;
@@ -280,7 +280,7 @@ a {
 
 .wines .box-container .box .text-box h3 {
     font-size: 1.9rem;
-    color: #6f3c3c;
+    color: var(--text-color);
     text-transform: uppercase;
     padding-bottom: 40px;
     font-family: 'Poppins', sans-serif;
@@ -288,7 +288,7 @@ a {
 
 .wines .box-container .box .text-box p {
     font-size: 1.5rem;
-    color: #a7a7a7;
+    color: var(--text-color);
     font-family: 'Courier New', Courier, monospace;
 }
 
