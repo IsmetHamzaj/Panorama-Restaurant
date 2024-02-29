@@ -363,7 +363,7 @@ a {
 
 .getintouch .box-container .box p {
     font-size: 2rem;
-    color: #a9a9a9;
+    color: var(--text-color);
     width: 310px;
 }
 
