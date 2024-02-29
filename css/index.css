@@ -12,7 +12,7 @@
 
 :root {
     --text-color: #000;
-    --bg: #edede9;
+    --bg: #e8c39e;
     --border: .1rem solid rgba(255, 255, 255, .3);
 }
 
@@ -60,7 +60,7 @@ a {
     padding: 0rem 7%;
     font-size: 3rem;
     color: var(--text-color);
-    background: #e8c39e;
+    background: var(--bg);
     outline: none;
     border: none;
     border-radius: 25%;
@@ -118,20 +118,22 @@ a {
 }
 
 .home .content {
-    max-width: 90%;
+    max-width: 95%;
 }
 
 .home .content h1 {
     font-size: 5rem;
     text-transform: uppercase;
     color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
 }
 
 .about {
     min-height: 88vh;
     max-width: 95%;
     margin: auto;
-    background: #e8c39e;
+    background: var(--bg);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -154,8 +156,8 @@ a {
 .about .content p {
     width: 700px;
     margin-bottom: .5rem;
-    text-transform: capitalize !important;
     font-size: 1.8rem;
+    text-transform: none !important;
     line-height: 2.5rem;
     color: var(--text-color);
 }
@@ -166,6 +168,7 @@ a {
     line-height: 2.5rem;
     color: var(--text-color);
     text-decoration: underline;
+    text-transform: none !important;
 }
 
 .menu {
@@ -210,7 +213,7 @@ a {
 
 .menu .box-container .box h4 {
     font-size: 1.9rem;
-    color: #e8c39e;
+    color: var(--bg);
     text-decoration: underline;
     text-transform: uppercase;
     padding-bottom: 30px;
@@ -219,7 +222,7 @@ a {
 
 .menu .box-container .box h3 {
     font-size: 2.2rem;
-    color: var(--text-color);
+    color: #000;
     text-transform: uppercase;
     padding-bottom: 5px;
     font-family: 'Poppins', sans-serif;
@@ -227,7 +230,7 @@ a {
 
 .menu .box-container .box p {
     font-size: 1.2rem;
-    color: #ffffff;
+    color: #000;
     font-family: 'Courier New', Courier, monospace;
     padding-bottom: 30px;
 }
@@ -429,6 +432,33 @@ a {
     section {
         padding: 2rem;
     }
+
+    .wines {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .wines .box-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wines .box-container .box {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    }
+
+    .wines .box-container .box .text-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .wines .box-container .box .img-box img {
+        width: 50px;
+        height: 250px;
+    }
 }
 
 
@@ -442,10 +472,12 @@ a {
     }
 
     .home {
-        background-position: left;
+        max-width: 98%;
+        margin: auto;
+        background-position: center;
         justify-content: center;
         text-align: center;
-        background-size: contain;
+        background-size: cover;
         background-attachment: scroll;
     }
 
@@ -461,7 +493,7 @@ a {
         position: absolute;
         top: 100%;
         right: -100%;
-        background: #fff;
+        background: var(--bg);
         width: 30rem;
         height: calc(100vh - 9.5rem);
     }
@@ -511,8 +543,11 @@ a {
     }
 
     .wines .box-container .box {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
     }
 
     .wines .box-container .box .text-box {
